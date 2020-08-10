@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kumo",
+        "repositoryURL": "https://github.com/DuetHealth/Kumo.git",
+        "state": {
+          "branch": "replace_rx_with_combine",
+          "revision": "1bd4d260e4c33169d652deb5260925029d0b8698",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
