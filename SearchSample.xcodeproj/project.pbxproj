@@ -45,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B566B6CA25141035000E6AF6 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2B79824E0C90E00F58308 /* SearchView.swift */,
+				B5B2B7AD24E0CA8600F58308 /* SearchModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B566B6CB25141053000E6AF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2B7AF24E0CCFA00F58308 /* JikanSearchService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B566B6CC25141070000E6AF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2B79A24E0C90F00F58308 /* Assets.xcassets */,
+				B5B2B79F24E0C90F00F58308 /* LaunchScreen.storyboard */,
+				B5B2B7A224E0C90F00F58308 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B5B2B78824E0C90E00F58308 = {
 			isa = PBXGroup;
 			children = (
@@ -64,14 +91,11 @@
 		B5B2B79324E0C90E00F58308 /* SearchSample */ = {
 			isa = PBXGroup;
 			children = (
+				B566B6CB25141053000E6AF6 /* Data */,
+				B566B6CC25141070000E6AF6 /* Resources */,
+				B566B6CA25141035000E6AF6 /* Search */,
 				B5B2B79424E0C90E00F58308 /* AppDelegate.swift */,
 				B5B2B79624E0C90E00F58308 /* SceneDelegate.swift */,
-				B5B2B79824E0C90E00F58308 /* SearchView.swift */,
-				B5B2B7AD24E0CA8600F58308 /* SearchModel.swift */,
-				B5B2B7AF24E0CCFA00F58308 /* JikanSearchService.swift */,
-				B5B2B79A24E0C90F00F58308 /* Assets.xcassets */,
-				B5B2B79F24E0C90F00F58308 /* LaunchScreen.storyboard */,
-				B5B2B7A224E0C90F00F58308 /* Info.plist */,
 				B5B2B79C24E0C90F00F58308 /* Preview Content */,
 			);
 			path = SearchSample;
@@ -307,7 +331,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SearchSample/Preview Content\"";
 				DEVELOPMENT_TEAM = 86B49455PK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SearchSample/Info.plist;
+				INFOPLIST_FILE = SearchSample/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +351,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SearchSample/Preview Content\"";
 				DEVELOPMENT_TEAM = 86B49455PK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SearchSample/Info.plist;
+				INFOPLIST_FILE = SearchSample/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
